@@ -19,7 +19,7 @@ const config: Config = {
         'gradient-orange-end': '#f97316',
       },
       fontFamily: {
-        "display": ["Manrope", "sans-serif"]
+        "sans": ["var(--font-roboto)", "sans-serif"]
       },
       borderRadius: {
         "DEFAULT": "0.5rem",

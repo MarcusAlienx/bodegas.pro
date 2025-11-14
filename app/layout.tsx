@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const manrope = Manrope({
+const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["400", "500", "700", "800"],
-  variable: "--font-manrope",
+  weight: ["400", "500", "700"],
+  variable: "--font-roboto",
 });
 
 export const metadata: Metadata = {
@@ -33,12 +33,12 @@ export default function RootLayout({
     <html lang="es" className="dark">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
       </head>
       <body
-        className={`${manrope.variable} font-display bg-background-light dark:bg-background-dark text-[#EAEAEA]`}
+        className={`${roboto.variable} font-sans bg-gray-900 text-gray-200`}
       >
         {children}
       </body>

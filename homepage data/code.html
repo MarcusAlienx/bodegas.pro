@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BuscaBodegas.com</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<style>
+        .gradient-text {
+          background: linear-gradient(to right, #facc15, #fb923c, #f97316);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+          background: linear-gradient(to right, rgba(250, 204, 21, 0.1), rgba(251, 146, 60, 0.1), rgba(249, 115, 22, 0.1));
+        }
+        .gradient-border-textarea {
+            border: 1px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to right, #facc15, #fb923c, #f97316);
+        }
+    </style>
+<style>
+        body {
+            min-height: max(884px, 100dvh);
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-900 font-sans text-gray-200">
+<div class="min-h-screen flex flex-col p-4 sm:p-6 lg:p-8">
+<header class="flex justify-between items-center mb-8">
+<img alt="BuscaBodegas.com Logo" class="h-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7VEJBU2s1pTB6tpb75X-5MUCzIV6v1HviYTKj31hvQUGEY5vbqkp4IQ4mcBqbVmi-B2_ke9xMBmMyOghrUeOUTV1i04u6irhCmg2PoT6GUPtWadTiDK19S60qGk9Ofhsjq4LCkcFq-hprr8ODWgwzas-6rFXSmlb8RkfjEPd6Jgqy2NKF8wspdgJoZuLboe04k516U6xK2_ZcYOnMdj2dg3cucJjo3El4Xrf6IOCXaEDzOiGhszDt1Dzrt74vrtWJtQga7wLdifk"/>
+<span class="material-icons text-3xl">account_circle</span>
+</header>
+<main class="flex-grow flex flex-col justify-center">
+<div class="w-full max-w-3xl mx-auto text-center">
+<h1 class="text-4xl sm:text-5xl font-bold">
+<span class="gradient-text">Hola, Usuario!</span>
+</h1>
+<p class="text-lg sm:text-xl text-gray-400 mt-2">Que Bodega buscas o publicas hoy?</p>
+<div class="mt-8">
+<label class="text-sm font-medium text-gray-400 mb-2 text-left block" for="search-input">Busquemos tu siguiente proyecto</label>
+<div class="relative">
+<div class="bg-gray-800 rounded-lg shadow-lg gradient-bg gradient-border-textarea">
+<textarea class="w-full bg-transparent border-none rounded-lg p-4 focus:ring-0 focus:border-transparent resize-none text-gray-200 placeholder-gray-500" id="search-input" placeholder="Busca por m2, zona, características, etc..." rows="5"></textarea>
+</div>
+<div class="absolute bottom-4 right-4 flex items-center justify-end mt-2 space-x-2">
+<button class="px-3 py-1 text-sm bg-gray-700 rounded-full text-gray-300 hover:bg-gray-600 transition-colors">Bodegas Renta GDL</button>
+<button class="px-3 py-1 text-sm bg-gray-700 rounded-full text-gray-300 hover:bg-gray-600 transition-colors">Bodegas en Venta MTY</button>
+</div>
+</div>
+</div>
+<div class="mt-12">
+<div class="flex items-center justify-center space-x-4">
+<button class="flex items-center space-x-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg hover:bg-gray-700 transition-colors">
+<span class="material-icons text-amber-500">add</span>
+<span>+Nueva Publicacion</span>
+</button>
+<button class="flex items-center space-x-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg hover:bg-gray-700 transition-colors">
+<span class="material-icons text-amber-500">cloud_upload</span>
+<span>Importar Publicacion</span>
+</button>
+</div>
+<div class="mt-10">
+<p class="text-sm font-medium text-gray-500 mb-4">Portales inmobiliarios incluidos</p>
+<div class="flex justify-center items-center space-x-6">
+<img alt="Lamudi logo" class="h-5 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRGOq5bmpAvgX4pKXGqCz7T0U5PjdPLbv_zQty3BrMylFO14y6EmwcjHApdR4YeukJacpB-FxVgROF9MryXzuhKA9ekE9ABo6P-B6fyyfvepMh8GBcyZmqG4Fav9I-K0lDwvSxT9Cy1f9jeuG9iFHJmrhxFXJipVonSo8Y__I-j2n71ZWxIYSGaaqvGc_6L5QhRoUZX-CQFE1ELz39AtAV0z0f0XR6OFs2TvNNQM1G1IBtsDgG9Oh9uz29cdCLES-y1kTbn0a0N5M"/>
+<img alt="Inmuebles24 logo" class="h-5 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuxWBr5x60pl4yi26tuq3stFKMIRMB7ipw05Raq51xfQcu_mud_srd9FqY3FOoVZ6K5d_v1yWjtfNOIWai1aopvhRr-2yx7Nht7P8tQrZ_TOrUA9ralSFA7NJKI8OPotN_fNI5QdkDOr6gfF8WK7RiJi_Api3EQQsGB00MW7dLp2bSISBDJjuZQNG3YSInKKh8STEvvShtzRyLWI36vcflCmsDbzLxJJ50nkib8SyxME98jySesKj58U4ag4HhkE2i35-hiVLS_O0"/>
+<img alt="Mitula logo" class="h-4 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeUrYOqHtwJFcZsz_083Wj9Z6og1ymWEZeSHruz7MyklMJFXNdmclg09PDLHRLYxzcU7orIRDkYeaMkdM3q7z9wfO5ZahtouL00CeZLwUHrwMYIxZg2Yg8_oM9euJX-OjYUwZkdQZ-2CXkYcStQQqfYVEMlBdHNawp1o0CusTr4SPaOSdHS2xwaagpz-jDerw2OjhQeiQ5895aZmt_r8tgknayx-BA4KRB_0b41PGM7gN1wNDky4K0F_ZYHNy8XlBQXZSpMUHuuHc"/>
+<img alt="Vivanuncios logo" class="h-5 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0oU-qjDL0aknq4q92p-fMj7ayT2yN6R0Ger0Jb4B6N55RRL1TITVM5QZYkU2CR1yXpJFUxV_3vrgh4KPCKYXW2_y16m-qy52uUjde9Dd8Tbiv-IkdTUO5Q2VsUfsn55usVCAqWGurTl9GrU5IEBxPA7fNT-pIRma3jto15Yjv8HSRHRpVTm0VhjQfuIFz6u1gszInudhpha2ggcjn78-QcPRIC5munKkogJ8GLgnnCR0WA7CNdCOeveL2c5bOgYjGcND-Mylu1_Q"/>
+<img alt="Trovit logo" class="h-5 opacity-70" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXv7TPKHU_hXXIDyheiQTgn7hSd69Y_kPmZCKJOwkI1BZ8seQivun8b9s8wlzbLVL4tIRdxXrjrmABWx0Poj9Wc1PGbSugIk5PbBD5IBesas_KNGWIdHM9yViaGmAzrsvMnWj6lra20cDEh-3cXJcI9biXAdin8X5jlU5DHtyebuaioOxqa3NEWuVEIbIGHuDo2rfErqhfqhGKsI-ZmIKzDQdcC4ODT5afBTL_rpR-onl-ByppIvoS0sOJx_A7b1h82k2WnHrLN-g"/>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="text-center text-gray-500 text-sm mt-8">
+        © 2025 Bodegas.pro. Todos los derechos reservados.
+    </footer>
+</div>
+
+</body></html>
