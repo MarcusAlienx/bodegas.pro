@@ -11,12 +11,12 @@ Configura un proyecto Firebase completo para una plataforma de bodegas industria
 ## 1. CONFIGURACIÓN INICIAL
 
 Crea un archivo de configuración de Firebase para Next.js con TypeScript usando estos valores:
-- apiKey: 'AIzaSyAFcGYDTe5KJsCyxmRVqsBGdOzZMyxM8K0'
+- apiKey: 
 - authDomain: 'buscabodegasx.firebaseapp.com'
 - projectId: 'buscabodegasx'
 - storageBucket: 'buscabodegasx.firebasestorage.app'
 - messagingSenderId: '402146256283'
-- appId: '1:402146256283:web:154fe551422a1fdacfad3e'
+- appId: 
 - measurementId: 'G-Y6W2MCJP80'
 
 ## 2. AUTENTICACIÓN
